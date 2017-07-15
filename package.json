@@ -1,0 +1,31 @@
+{
+  "//1": "Image Search Abstraction Layer",
+  "//2": "https://docs.npmjs.com/files/package.json",
+  "//3": "",
+
+  "name": "image-search-abstraction-layer",
+  "version": "0.0.1",
+  "description": "An image search API",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.15.3",
+    "request": "*",
+    "mongodb": "*"
+  },
+  "engines": {
+    "node": "8.1.x"
+  },
+  "repository": {
+    "url": ""
+  },
+  "license": "MIT",
+  "keywords": [
+    "node",
+    "glitch",
+    "express",
+    "freecodecamp"
+  ]
+}
